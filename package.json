@@ -1,0 +1,10 @@
+{
+  "name": "htrades",
+  "private": true,
+  "workspaces": ["frontend"],
+  "scripts": {
+    "dev": "npm --prefix frontend dev",
+    "build": "npm --prefix frontend build",
+    "start": "npm --prefix frontend start"
+  }
+}
